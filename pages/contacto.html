@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+	<title>CONTACTO</title>
+</head>
+
+<body>
+    <header class="navBackground">
+		<h1 class="titulo">PEDRO'S</h1>
+		<nav>
+			<ul class="estiloLista">
+				<li><a href="../index.html">INICIO</a></li>
+				<li><a href="carta.html">CARTA</a></li>
+				<li><a href="sucursales.html">SUCURSALES</a></li>
+				<li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+				<li><a href="">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <section>
+        <h2 class="subtitulosGeneral">Si estás buscando revender nuestros productos, contactanos!</h2>
+    </section>	
+
+
+	<!-- formulario de contacto -->
+	<section>
+		<form action="" method="post">
+			<fieldset>
+				<legend>FORMULARIO DE CONTACTO</legend>
+				
+				<div>
+					<label for="Nombre">Nombre:</label>
+					<input type="text" id="Nombre" placeholder="Ingrese su nombre">
+				</div>
+			
+				<div>
+					<label for="Apellido">Apellido:</label>
+					<input type="text" id="Apellido" placeholder="Ingrese su apellido">
+				</div>
+			
+				<div>
+					<label for="Email">Email:</label>
+					<input type="email" id="Email" placeholder="Ingrese su email">
+				</div>
+				
+				<div>
+					<label for="Fecha de Nacimiento">Fecha de Nacimiento:</label>
+					<input type="date"> 
+				</div>
+			
+				<div>Sexo:
+					<div>Masculino
+					<input type="radio" name="sexo" value="masculino">
+				</div>
+				<div>Femenino
+					<input type="radio" name="sexo" value="Femenino">
+				</div>
+			
+				<div>
+					¿Dónde incorporarías nuestra marca?
+						<select name="letra" id="letra"> 
+							<option value="RESTAURANTES">Restaurantes</option>
+							<option value="SUPERMERCADOS">Supermercados</option>
+							<option value="MAXIQUIOSCOS">Maxiquioscos</option>
+						</select>
+				</div>
+			
+				<div>¿Te gustaría recibir nuestras recetas?
+					<input type="checkbox" name="acepta" value="1">
+				</div>
+				
+				<input type="button" value="Borrar">
+				<input type="button" value="Enviar">
+			
+			</fieldset>
+		</form>
+	</section>
+
+	<!-- inicio de footer --> 
+	<footer id="PEDRO'S">
+        <div> LA FELICIDAD PRIMERO </div>
+		<div>Teléfono: (3851) 12345698</div>
+    </footer>
+</body>
+</html>
